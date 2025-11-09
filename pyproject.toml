@@ -1,0 +1,18 @@
+[project]
+name = "bot-bde"
+version = "0.1.0"
+description = "Bot discord pour l'association BDE42Lausanne"
+authors = [
+    {name = "RaphyStoll",email = "raphael.ferreira@ik.me"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp (>=3.13.2,<4.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
